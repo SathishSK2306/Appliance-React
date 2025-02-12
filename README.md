@@ -1,8 +1,17 @@
-# React + Vite
+This is a React-based web application built as part of an assignment. It includes the following features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. **Counter Component**: A counter with increment, decrement, and reset buttons. The background color changes dynamically using React Spring.
+2. **User Data Form**: A form to collect user data (name, address, email, phone) and save it to localStorage.
+3. **Rich Text Editor**: A rich text editor using Draft.js to visualize and format user data.
 
-Currently, two official plugins are available:
+## Libraries Used
+- React
+- Material UI
+- React Spring
+- Draft.js
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
